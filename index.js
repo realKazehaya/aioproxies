@@ -50,7 +50,7 @@ client.on('message', async message => {
                        const dms = new Discord.MessageEmbed()
                         .setTitle("Check your DMs!")
                         .setColor(0x00AE86)
-                        .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
+                        .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
                         .setTimestamp()
 
                     message.channel.send(dms)
@@ -60,7 +60,7 @@ client.on('message', async message => {
                         .setTitle("Proxies")
                         .setColor(0x00AE86)
                         .setDescription("HTTP Proxies - [**Download**](https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all)\nProxies Amount: " + data + "\nLast Update: "+ response.data )
-                        .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
+                        .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
                    return message.author.send(http);
                  
 
@@ -85,7 +85,7 @@ client.on('message', async message => {
                        const dms = new Discord.MessageEmbed()
                         .setTitle("Check your DMs!")
                         .setColor(0x00AE86)
-                        .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=20482")
+                        .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=20482")
                         .setTimestamp()
 
                 message.channel.send(dms)
@@ -94,7 +94,7 @@ client.on('message', async message => {
                     .setTitle("Proxies")
                     .setColor(0x00AE86)
                     .setDescription("SOCKS4 Proxies - [**Download**](https://api.proxyscrape.com/?request=getproxies&proxytype=socks4&timeout=10000&country=all&ssl=all&anonymity=all)\nProxies Amount: " + data + "\nLast Update: "+ response.data )
-                    .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=20482")
+                    .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=20482")
                     .setTimestamp()
 
                 return message.author.send(socks4);
@@ -122,7 +122,7 @@ client.on('message', async message => {
                        const dms = new Discord.MessageEmbed()
                         .setTitle("Check your DMs!")
                         .setColor(0x00AE86)
-                        .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
+                        .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
                         .setTimestamp()
 
                 message.channel.send(dms)
@@ -131,7 +131,7 @@ client.on('message', async message => {
                     .setTitle("Proxies")
                     .setColor(0x00AE86)
                     .setDescription("SOCKS5 Proxies - [**Download**](https://api.proxyscrape.com/?request=getproxies&proxytype=socks5&timeout=10000&country=all&ssl=all&anonymity=all)\nProxies Amount: " + data + "\nLast Update: "+ response.data )
-                    .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
+                    .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
                     .setTimestamp()
 
                 return message.author.send(socks4);
@@ -151,7 +151,7 @@ client.on('message', async message => {
             .setTitle("Command List")
             .setColor(0xf7757c)
             .setDescription(`**Proxies Commands:**\n$proxies [type] - **(types: http, socks4, socks5)**\n\n**Info Commands:**\n$ping, $help, $stats, $invite`)
-            .setFooter("Coded by Animus#8980", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
+            .setFooter("Coded by Animus#9658", "https://cdn.discordapp.com/avatars/785613951374458881/f2d4a696c0a212cdfa11c057e87a2ecb.png?size=2048")
             .setTimestamp()
 
         message.channel.send(embed);
@@ -179,7 +179,7 @@ client.on('message', async message => {
         const embed = new Discord.MessageEmbed()
             .setColor(0xf7757c)
             .addField(`**Prefix**`, `$`)
-            .addField(`**Coder**`, `Animus#8980`)
+            .addField(`**Coder**`, `Animus#9658`)
             .addField(`**Commands List**`, `$commands`)
             .addField(`**Invite Link**`, `[Click Here](https://discord.com/api/oauth2/authorize?client_id=785638385027907584&permissions=67488881&scope=bot)`)
             .addField(`**Support Serer**`, `[Click Here](https://discord.gg/)`)
@@ -210,7 +210,7 @@ client.on('message', async message => {
             .setColor(0x66ff66)
 
             .setAuthor(`Bot Stats`, client.user.avatarURL())
-            .addField(`Coder`, `Animus#8980`)
+            .addField(`Coder`, `Animus#9658`)
             .addField(`Version`, `0.1`)
 
             .addField(`Uptime`, `${uptime}`)
